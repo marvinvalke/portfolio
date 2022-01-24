@@ -14,7 +14,7 @@ const Contact = () => {
         <div className="contact-infos">
           <div className="address">
             <div className="content">
-              <h4>Adresse</h4>
+              <h4>Address</h4>
               <p>6, Rue Henry Bordeaux</p>
               <p>74000 Annecy</p>
             </div>
@@ -22,16 +22,16 @@ const Contact = () => {
 
           <div className="phone">
             <div className="content">
-              <h4>Téléphone</h4>
+              <h4>Phone</h4>
               <CopyToClipboard text="0618732413" className="hover">
                 <p
                   style={{ cursor: "pointer" }}
                   className="clipboard hover"
                   onClick={() => {
-                    alert("Téléphone copié !");
+                    alert("Phone copied !");
                   }}
                 >
-                  06 18 73 24 13
+                  +33(0)6 18 73 24 13
                 </p>
               </CopyToClipboard>
             </div>
@@ -44,7 +44,7 @@ const Contact = () => {
                   style={{ cursor: "pointer" }}
                   className="clipboard hover"
                   onClick={() => {
-                    alert("Email copié !");
+                    alert("Email copied !");
                   }}
                 >
                   valkemarvin@gmail.com
