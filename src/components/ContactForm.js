@@ -96,10 +96,11 @@ const ContactForm = () => {
   };
 
   return (
-    <form className="contact-form">
+    <form className="contact-form" autocomplete="off">
       <h2>Contact me</h2>
       <div className="form-content">
         <input
+          autocomplete="off"
           type="text"
           id="name"
           name="name"
@@ -109,6 +110,7 @@ const ContactForm = () => {
           value={name}
         />
         <input
+          autocomplete="off"
           type="text"
           id="company"
           name="company"
@@ -117,6 +119,7 @@ const ContactForm = () => {
           value={company}
         />
         <input
+          autocomplete="off"
           type="text"
           id="phone"
           name="phone"
@@ -127,6 +130,7 @@ const ContactForm = () => {
         <div className="email-content">
           <label id="not-mail">Email non valide</label>
           <input
+            autocomplete="off"
             type="mail"
             id="email"
             name="email"
@@ -137,6 +141,7 @@ const ContactForm = () => {
           />
         </div>
         <textarea
+          autocomplete="off"
           id="message"
           name="message"
           onChange={(e) => setMessage(e.target.value)}

@@ -41,7 +41,7 @@ export const projectsData = [
     date: "January 2022",
     languages: ["React", "Axios", "Sass"],
     infos:
-      "Moovies and TV shows database using IMDb's API. Search, random and ranking and displays features.",
+      "Moovies and TV shows database using IMDb's API. Search, random and ranking and displays features. So just Smoovies and chill.",
     img: project4,
     link: "https://smoovies.netlify.app",
   },

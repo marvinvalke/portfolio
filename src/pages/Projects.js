@@ -1,5 +1,6 @@
 import React from "react";
 import ButtonBottom from "../components/ButtonBottom";
+import Mouse from "../components/Mouse";
 import Nav from "../components/Nav";
 import Project from "../components/Project";
 import RandomCircle from "../components/RandomCircle";
@@ -7,6 +8,7 @@ import RandomCircle from "../components/RandomCircle";
 export const Project1 = () => {
   return (
     <main>
+      <Mouse />
       <div className="project">
         <Nav />
         <Project projectNumber={0} />
@@ -20,6 +22,7 @@ export const Project1 = () => {
 export const Project2 = () => {
   return (
     <main>
+      <Mouse />
       <div className="project">
         <Nav />
         <Project projectNumber={1} />
@@ -33,6 +36,7 @@ export const Project2 = () => {
 export const Project3 = () => {
   return (
     <main>
+      <Mouse />
       <div className="project">
         <Nav />
         <Project projectNumber={2} />
@@ -46,6 +50,7 @@ export const Project3 = () => {
 export const Project4 = () => {
   return (
     <main>
+      <Mouse />
       <div className="project">
         <Nav />
         <Project projectNumber={3} />
@@ -59,6 +64,7 @@ export const Project4 = () => {
 export const Project5 = () => {
   return (
     <main>
+      <Mouse />
       <div className="project">
         <Nav />
         <Project projectNumber={4} />

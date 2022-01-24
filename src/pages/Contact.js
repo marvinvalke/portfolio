@@ -4,10 +4,12 @@ import SocialNetwork from "../components/SocialNetwork";
 import CopyToClipboard from "react-copy-to-clipboard";
 import ButtonBottom from "../components/ButtonBottom";
 import ContactForm from "../components/ContactForm";
+import Mouse from "../components/Mouse";
 
 const Contact = () => {
   return (
     <main>
+      <Mouse />
       <div className="contact">
         <Nav />
         <ContactForm />

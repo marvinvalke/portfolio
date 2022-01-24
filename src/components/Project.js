@@ -11,7 +11,7 @@ function Project(props) {
     <div className="project-main">
       <div className="project-content">
         <h1>{project.title}</h1>
-        <p>{project.date}</p>
+        <p className="date" >{project.date}</p>
         <ul className="languages">
           {project.languages.map((elem) => {
             return <li key={elem}>{elem}</li>;

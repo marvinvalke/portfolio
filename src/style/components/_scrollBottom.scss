@@ -29,6 +29,7 @@
     }
     .left,
     .right {
+      color: $color-4;
       text-align: center;
       @media screen and (max-width: 430px){
         transform: scale(2);
@@ -38,6 +39,7 @@
       grid-area: a;
     }
     p {
+      color: $color-4;
       grid-area: b;
 
       @media screen and (max-width: 430px){

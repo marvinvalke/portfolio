@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Mouse from "./components/Mouse";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
@@ -15,7 +14,6 @@ import {
 function App() {
   return (
     <div className="App">
-      <Mouse />
 
       <Routes>
         <Route path="/" element={<Home />} />

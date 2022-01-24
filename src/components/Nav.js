@@ -10,7 +10,7 @@ function Nav() {
 
         <li className="nav-portfolio">
           <NavLink to="/project-1" className="hover">
-            Portfolio
+            <li>Portfolio</li>
           </NavLink>
           <ul className="nav-projects">
             <NavLink to="/project-1" className="hover">

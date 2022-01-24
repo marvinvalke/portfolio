@@ -25,6 +25,7 @@ $red: rgb(253, 87, 87);
   outline: none;
   border: none;
   text-decoration: none;
+  color: aliceblue;
  
 
   &::selection {
@@ -34,6 +35,9 @@ $red: rgb(253, 87, 87);
 }
 html { 
   scroll-behavior: unset;
+}
+li {
+  color: $color-4
 }
 a,
 a:visited {
@@ -76,6 +80,8 @@ main {
 }
 
 
-
+i {
+  color: $color-4;
+}
 
 
