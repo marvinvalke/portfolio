@@ -22,6 +22,7 @@
     @media screen and (max-width: 430px){
       // display: none;
       left : -500px;
+      background-color: red;
     }
   }
 
@@ -136,7 +137,7 @@
           border-radius: 50%;
           position: absolute;
           top: -28px;
-          left: 70px;
+          left: 180px;
           z-index: -10;
 
           @media screen and (max-width: 810px){
@@ -188,6 +189,10 @@
           width: 280px
         }
 
+        p {
+          color: rgb(190, 190, 190);
+        }
+
         &:hover span,
         span:hover {
           visibility: visible;
@@ -196,7 +201,7 @@
 
         img {
           overflow: hidden;
-          object-fit: cover;
+          object-fit: fill;
           object-position: 0%;
           width: 100%;
           height: 100%;

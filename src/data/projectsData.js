@@ -1,42 +1,58 @@
+import project1 from "../assets/img/project-1.png";
+import project2 from "../assets/img/project-2.png";
+import project3 from "../assets/img/project-3.png";
+import project4 from "../assets/img/project-4.png";
+import project5 from "../assets/img/project-5.png";
+
 export const projectsData = [
   {
     id: 1,
-    title: "Casta",
-    date: "Janvier 2020",
-    languages: ["React", "Php", "Sass"],
+    title: "Chasing Manish",
+    date: "Octobre 2021",
+    languages: ["HTML", "CSS", "JavaScript"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-2.jpg",
-    link: "http://www.google.com",
+      "Web game made only with HTML CSS and JavaScript using canvas and DOM manipulation. The game is really hard on purpose, please don't hate me.",
+    img: project1,
+    link: "https://marvinvalke.github.io/chasing-manish/",
   },
   {
     id: 2,
-    title: "Lyon Béton",
-    date: "Mars 2020",
-    languages: ["Symfony", "Vue"],
+    title: "WoD[i] WoD-Picker",
+    date: "November 2021",
+    languages: ["Handlebars", "MongoDB", "Express", "Node"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-1.jpg",
-    link: "http://www.google.com",
+      "Web application for crossfit. CRUD operations and authentification using Node Express and MongoDB. API calls with Axios and front-end development made with Handlebars.",
+    img: project2,
+    link: "https://wodi-wodpicker.herokuapp.com/",
   },
   {
     id: 3,
-    title: "Everpost",
-    date: "Avril 2020",
-    languages: ["Wordpress", "Php", "React"],
+    title: "Hal_O World",
+    date: "December 2021",
+    languages: ["MongoDB", "Express", "React", "Node"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-3.jpg",
-    link: "http://www.google.com",
+      "Full stack application made with React. This application uses the Nasa API with Axios. You can even see the APOD of your birthday.",
+    img: project3,
+    link: "https://hal-o-world.herokuapp.com/",
   },
   {
     id: 4,
-    title: "Creative Dev",
-    date: "Juillet 2020",
-    languages: ["Vue", "Php"],
+    title: "Smoovies",
+    date: "January 2022",
+    languages: ["React", "Axios", "Sass"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-4.jpg",
-    link: "http://www.google.com",
+      "Moovies and TV shows database using IMDb's API. Search, random and ranking and displays features.",
+    img: project4,
+    link: "https://smoovies.netlify.app",
+  },
+  {
+    id: 5,
+    title: "Coup 2 Pression",
+    date: "January 2022",
+    languages: ["Vue", "Axios", "Sass"],
+    infos:
+      "E-commerce application for beers lovers. Cart transition animated with Sass and front-end made with VueJS",
+    img: project5,
+    link: "https://coup2pression.netlify.app/",
   },
 ];

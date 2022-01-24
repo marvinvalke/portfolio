@@ -3,6 +3,7 @@ import DynamicText from "../components/DynamicText";
 import Nav from "../components/Nav";
 import SocialNetwork from "../components/SocialNetwork";
 import ButtonBottom from "../components/ButtonBottom";
+import RandomCircle from "../components/RandomCircle";
 
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
     <div className="home">
       <Nav />
       <SocialNetwork />
+      <RandomCircle />
       <div className="home-main">
         <div className="main-content">
           <h1>Marvin Valke</h1>

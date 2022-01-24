@@ -9,23 +9,23 @@ function Nav() {
         </NavLink>
 
         <li className="nav-portfolio">
-          <NavLink to="project-1" className="hover">
+          <NavLink to="/project-1" className="hover">
             Portfolio
           </NavLink>
           <ul className="nav-projects">
-            <NavLink to="project-1" className="hover">
+            <NavLink to="/project-1" className="hover">
               <li>Chasing Manish</li>
             </NavLink>
-            <NavLink to="project-2" className="hover">
+            <NavLink to="/project-2" className="hover">
               <li>WoD[i] WoD-Picker</li>
             </NavLink>
-            <NavLink to="project-3" className="hover">
+            <NavLink to="/project-3" className="hover">
               <li>Hal_O World</li>
             </NavLink>
-            <NavLink to="project-4" className="hover">
+            <NavLink to="/project-4" className="hover">
               <li>Smoovies</li>
             </NavLink>
-            <NavLink to="project-5" className="hover">
+            <NavLink to="/project-5" className="hover">
               <li>Coup 2 Pression</li>
             </NavLink>
           </ul>

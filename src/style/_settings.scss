@@ -10,11 +10,11 @@
 $font-1: "font-1", sans-serif;
 $font-2: "font-2", serif;
 
-$color-1: #fafeff;
-$color-2: #00c1ec;
-$color-3: #e7f7fe;
+$color-1: #000000;
+$color-2: #00ffea;
+$color-3: rgb(11, 14, 39);
 $color-4: rgb(141, 141, 141);
-$black: rgb(40, 40, 40);
+$black: #333333;
 $red: rgb(253, 87, 87);
 
 * {
@@ -59,6 +59,7 @@ main {
 }
 .button {
   background: $color-3;
+  color: $color-4;
   height: 55px;
   width: 126px;
   border-radius: 50px;
@@ -77,6 +78,3 @@ main {
 
 
 
-/* .hovered {
-  color: red
-} */

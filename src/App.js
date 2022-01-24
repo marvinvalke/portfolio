@@ -1,9 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Mouse from "./components/Mouse";
-import Nav from "./components/Nav";
-import RandomCircle from "./components/RandomCircle";
-import SocialNetwork from "./components/SocialNetwork";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
@@ -19,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <Mouse />
-      <RandomCircle />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/project-1" element={<Project1 />} />
