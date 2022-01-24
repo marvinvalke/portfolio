@@ -100,6 +100,7 @@ const ContactForm = () => {
       <h2>Contact me</h2>
       <div className="form-content">
         <input
+          
           autocomplete="off"
           type="text"
           id="name"
