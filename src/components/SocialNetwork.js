@@ -1,5 +1,5 @@
 import React from "react";
-
+import Cv from "../assets/img/Marvin_Valke_CV_En.pdf";
 function SocialNetwork() {
   function anim() {
     let navLinks = document.querySelectorAll(".social-network a");
@@ -37,6 +37,11 @@ function SocialNetwork() {
         >
           <li>
             <i className="fab fa-github"></i>
+          </li>
+        </a>
+        <a onMouseOver={anim} href={Cv} download="marvin_valke_resume">
+          <li>
+            <i className="fas fa-file"></i>
           </li>
         </a>
       </ul>
