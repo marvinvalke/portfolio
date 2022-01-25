@@ -25,7 +25,7 @@ $red: rgb(253, 87, 87);
   outline: none;
   border: none;
   text-decoration: none;
-  
+  cursor: none;
  
 
   &::selection {
@@ -49,6 +49,7 @@ body {
   background-color: $color-1;
   color: $black;
   overflow: hidden;
+  cursor: none;
   
 
 
@@ -70,7 +71,7 @@ main {
   border-radius: 50px;
   margin-top: 20px;
   font-size: 1.2rem;
-  cursor: pointer;
+  cursor: none;
   transition: 0.2s;
 
   &:hover {

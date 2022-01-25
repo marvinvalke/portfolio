@@ -8,8 +8,9 @@
   pointer-events: none;
   transition: all 0.5s ease;
   transition-property: background, transform;
-  transition: top 160ms ease-out;
-  transition: left 160ms ease-out;
+  transform-origin: 100% 100%;
+  //transition: top 1600ms ease-out;
+  //transition: left 1600ms ease-out;
   z-index: 2;
   backdrop-filter: brightness(300%);
 }
@@ -18,5 +19,6 @@
   transition: .3s ease-out;
   width: 30px;
   height: 30px;
- 
+  background-color: $color-2 opacify($color: #000000, $amount: 1);
+  cursor: none;
 }
