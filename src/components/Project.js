@@ -4,14 +4,12 @@ import { projectsData } from "../data/projectsData";
 function Project(props) {
   const [currentProject] = useState(projectsData);
   const project = currentProject[props.projectNumber];
-  
 
-  console.log(project);
   return (
     <div className="project-main">
       <div className="project-content">
         <h1>{project.title}</h1>
-        <p className="date" >{project.date}</p>
+        <p className="date">{project.date}</p>
         <ul className="languages">
           {project.languages.map((elem) => {
             return <li key={elem}>{elem}</li>;
@@ -37,7 +35,6 @@ function Project(props) {
           </a>
         </div>
       </div>
-      
     </div>
   );
 }

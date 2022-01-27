@@ -11,6 +11,7 @@ import {
   Project5,
 } from "./pages/Projects";
 
+console.log("Hello inspecteur ... Bienvenue sur mon site (:");
 function App() {
   return (
     <div className="App">

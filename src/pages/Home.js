@@ -6,6 +6,8 @@ import ButtonBottom from "../components/ButtonBottom";
 import RandomCircle from "../components/RandomCircle";
 import Mouse from "../components/Mouse";
 
+
+
 function Home() {
   return (
     <div className="home">
