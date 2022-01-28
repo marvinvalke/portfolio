@@ -39,9 +39,14 @@ function SocialNetwork() {
             <i className="fab fa-github"></i>
           </li>
         </a>
-        <a onMouseOver={anim} href={Cv} download="marvin_valke_resume" className="hover">
+        <a
+          onMouseOver={anim}
+          href={Cv}
+          download="marvin_valke_resume"
+          className="hover"
+        >
           <li>
-            <i className="fas fa-file"></i>
+            <i className="fas fa-download"></i>
           </li>
         </a>
       </ul>
