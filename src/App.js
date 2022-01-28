@@ -12,7 +12,7 @@ import {
 } from "./pages/Projects";
 
 console.log(
-  "Hello inspecteur ... Bienvenue sur mon site (: | :) Hello inspector ... Welcom to my web site"
+  "Hello inspecteur ... Bienvenue sur mon site (: | :) Hello inspector ... Welcome to my web site"
 );
 function App() {
   return (
